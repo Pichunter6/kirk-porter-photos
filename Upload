@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kirk Porter Photography | Fine Art Prints</title>
+  <style>
+    body { font-family: 'Lato', sans-serif; margin: 0; background: #fff; color: #222; }
+    header { text-align: center; padding: 3rem 1rem; background: #f7f7f7; }
+    header h1 { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    header p { color: #666; }
+    nav { display: flex; justify-content: center; gap: 2rem; background: #fff; padding: 1rem; border-bottom: 1px solid #eee; }
+    nav a { text-decoration: none; color: #333; font-weight: 600; }
+    section { padding: 2rem 1rem; max-width: 1000px; margin: 0 auto; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 1.5rem; }
+    .photo-card { border: 1px solid #eee; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 8px rgba(0,0,0,0.05); }
+    .photo-card img { width: 100%; height: auto; display: block; }
+    .photo-card h3 { margin: 0.5rem; font-size: 1.1rem; }
+    .photo-card p { margin: 0.5rem; color: #555; }
+    .buy-btn { display: block; text-align: center; background: #2A8F8F; color: #fff; margin: 1rem; padding: 0.6rem 0; border-radius: 6px; text-decoration: none; font-weight: 600; }
+    footer { text-align: center; padding: 2rem 1rem; color: #666; background: #f9f9f9; margin-top: 3rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Kirk Porter Photography</h1>
+    <p>Fine Art Landscape Prints — Printed on Archival Paper • Fulfilled on Demand</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#gallery">Gallery / Shop</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>I capture quiet, powerful moments in the desert, mountains, and coast. Each print is produced on museum-quality paper and shipped directly to you.</p>
+    <p><a class="buy-btn" href="#gallery">Shop Prints</a></p>
+  </section>
+
+  <section id="gallery">
+    <h2>Gallery / Shop</h2>
+    <div class="gallery">
+      <div class="photo-card">
+        <img src="https://placehold.co/600x400?text=Desert+Sunset" alt="Desert Sunset" />
+        <h3>Desert Sunset</h3>
+        <p>Fine art print on archival paper. Available in multiple sizes.</p>
+        <a class="buy-btn" href="#">Buy Now</a>
+      </div>
+      <div class="photo-card">
+        <img src="https://placehold.co/600x400?text=Mountain+Light" alt="Mountain Light" />
+        <h3>Mountain Light</h3>
+        <p>Printed on demand and shipped worldwide.</p>
+        <a class="buy-btn" href="#">Buy Now</a>
+      </div>
+      <div class="photo-card">
+        <img src="https://placehold.co/600x400?text=Coastal+Reflections" alt="Coastal Reflections" />
+        <h3>Coastal Reflections</h3>
+        <p>Archival pigment print on fine art paper.</p>
+        <a class="buy-btn" href="#">Buy Now</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About</h2>
+    <p>I’m Kirk Porter, a landscape photographer based in the American West. I seek the stillness and drama of wild places — capturing light, texture, and the quiet geometry of nature. All prints are produced on archival paper and printed to order through professional labs.</p>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Have a question or custom request? Email me at <a href="mailto:kirk@example.com">kirk@example.com</a>.</p>
+  </section>
+
+  <footer>
+    <p>© 2025 Kirk Porter Photography • Fine Art Prints</p>
+  </footer>
+</body>
+</html>
